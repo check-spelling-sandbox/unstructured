@@ -1,0 +1,87 @@
+# Public Keys
+-----BEGIN PUBLIC KEY-----
+-----END PUBLIC KEY-----
+
+# RSA Private Key
+-----BEGIN RSA PRIVATE KEY-----
+-----END RSA PRIVATE KEY-----
+
+# GPG Public Key
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+-----END PGP PUBLIC KEY BLOCK-----
+
+# GPG Signature
+-----BEGIN PGP SIGNATURE-----
+-----END PGP SIGNATURE-----
+
+# Certificates
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----
+
+# unstructured/partition/utils/constants.py
+TESSERACT_LANGUAGES_AND_CODES = {
+}
+
+# test_unstructured/documents/test_elements.py
+"orig_elements": (
+)
+
+# test_unstructured/staging/test_base.py
+base64_elements_str = (
+)
+
+# test_unstructured/staging/test_base.py
+base.elements_to_base64_gzipped_json(elements) == (
+)
+
+# test_unstructured/partition/test_text_type.py
+def test_headings_are_not_narrative_text
+],
+
+# test_unstructured/metrics/test_text_extraction.py
+def test_calculate_edit_distance():
+assert (
+
+# test_unstructured/partition/test_text_type.py
+test_narrative_text_language_checks
+assert
+
+# test_unstructured/partition/test_text_type.py
+test_title_language_checks
+assert
+
+# test_unstructured/partition/test_text_type.py
+zombie?parrot
+],
+
+# unstructured/partition/lang.py
+PYTESSERACT_LANG_CODES = [
+]
+
+# unstructured/partition/lang.py
+PYTESSERACT_TO_PADDLE_LANG_CODE_MAP = {
+}
+
+# unstructured/partition/html/parser.py
+   foo  bar
+"""
+
+# test_unstructured/partition/test_lang.py
+test_detect_languages_gets_multiple_languages
+def
+
+# test_unstructured/partition/test_xml_partition.py
+test_partition_xml_with_narrative_line_breaks
+def
+
+# test_unstructured/cleaners/test_core.py
+def test_clean_ordered_bullets
+def test_clean_ligatures
+
+# test_unstructured/documents/test_elements.py
+it_can_update_itself_from_another_instance
+but_it_raises_on_attempt_to_update_from_a_non_ElementMetadata_object
+
+# test_unstructured/cleaners/test_translate.py
+test_translate_with_no_language_specified
+def
